@@ -1,0 +1,211 @@
+/*
+    Author:Tejas V;
+    Theme:Bakery Management System;
+    Version:1.0
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+.wrapper{
+   
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width:100%;
+}
+
+.tbl-30{
+    width: 30% ;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.btn-primary{
+    background-color:#1e90ff ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:#3742fa ;
+}
+
+.btn-secondary{
+    background-color:#2ed573 ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: green ;
+}
+.btn-danger{
+    background-color:rgb(222, 78, 78) ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color:red ;
+}
+
+.success
+{
+    color:#09582a ;
+}
+
+.error
+{
+    color:#ff4757 ;
+}
+td{
+    padding: 1%;
+}
+/*css for menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul
+{
+    list-style-type: none;
+}
+
+.menu ul li
+{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* css for main content*/
+.main-content{
+    padding: 3% 0;
+    background-color: grey;
+}
+.col-4{
+    width: 23%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* css for footer */
+.footer
+{
+    align: bottom;
+    background-color: #ff4757;
+    color: white;
+}
+
+/* css for login */
+.login
+{
+    /*width: 20%;
+    border: 1px solid grey;
+    margin:10% auto;
+    padding: 2%;
+    background-color: #ff4757;
+    color: rgb(13, 14, 14);
+    background-image: url("../images/bg7.png");*/
+    /* The image used */
+    background-image: url("../images/fan4.png");
+    
+    /* Control the height of the image */
+    min-height: 700px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  .container {
+    position:absolute;
+    right: 0;
+    margin: 50px;
+    max-width: 300px;
+    padding: 16px;
+    align-items: center;
+    background-color:white;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  h1
+  {
+    color: #ff4757;
+  }
+    
